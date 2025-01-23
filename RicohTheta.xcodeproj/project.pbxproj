@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868344CB2D42986D00BB0771 /* HttpStreamProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344BB2D42986D00BB0771 /* HttpStreamProtocol.swift */; };
+		868344CC2D42986D00BB0771 /* RicohThetaCommander2Dot0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344AC2D42986D00BB0771 /* RicohThetaCommander2Dot0.swift */; };
+		868344CD2D42986D00BB0771 /* SessionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B32D42986D00BB0771 /* SessionDTO.swift */; };
+		868344CE2D42986D00BB0771 /* DeviceInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B12D42986D00BB0771 /* DeviceInfoDTO.swift */; };
+		868344CF2D42986D00BB0771 /* RicohThetaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C52D42986D00BB0771 /* RicohThetaState.swift */; };
+		868344D02D42986D00BB0771 /* RicohThetaDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344AE2D42986D00BB0771 /* RicohThetaDeviceInfo.swift */; };
+		868344D12D42986D00BB0771 /* RicohThetaCommander2Dot1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344AD2D42986D00BB0771 /* RicohThetaCommander2Dot1.swift */; };
+		868344D22D42986D00BB0771 /* RicohThetaImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344BF2D42986D00BB0771 /* RicohThetaImageHandler.swift */; };
+		868344D32D42986D00BB0771 /* RicohThetaProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C02D42986D00BB0771 /* RicohThetaProviderDelegate.swift */; };
+		868344D42D42986D00BB0771 /* RicohThetaDeviceInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344BE2D42986D00BB0771 /* RicohThetaDeviceInfoProtocol.swift */; };
+		868344D52D42986D00BB0771 /* RicohThetaLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C92D42986D00BB0771 /* RicohThetaLogger.swift */; };
+		868344D62D42986D00BB0771 /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344A92D42986D00BB0771 /* HTTPConnection.swift */; };
+		868344D72D42986D00BB0771 /* RicohThetaCommanderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344BD2D42986D00BB0771 /* RicohThetaCommanderProtocol.swift */; };
+		868344D82D42986D00BB0771 /* CommandDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B02D42986D00BB0771 /* CommandDTO.swift */; };
+		868344D92D42986D00BB0771 /* HttpStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344AA2D42986D00BB0771 /* HttpStream.swift */; };
+		868344DA2D42986D00BB0771 /* RicohThetaAPIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C22D42986D00BB0771 /* RicohThetaAPIVersion.swift */; };
+		868344DB2D42986D00BB0771 /* OptionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B22D42986D00BB0771 /* OptionDTO.swift */; };
+		868344DC2D42986D00BB0771 /* RicohThetaTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C72D42986D00BB0771 /* RicohThetaTypealias.swift */; };
+		868344DD2D42986D00BB0771 /* RicohThetaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C32D42986D00BB0771 /* RicohThetaError.swift */; };
+		868344DE2D42986D00BB0771 /* HttpConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344BA2D42986D00BB0771 /* HttpConnectionProtocol.swift */; };
+		868344DF2D42986D00BB0771 /* OptionPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B72D42986D00BB0771 /* OptionPayload.swift */; };
+		868344E02D42986D00BB0771 /* CommandPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344B62D42986D00BB0771 /* CommandPayload.swift */; };
+		868344E12D42986D00BB0771 /* RicohThetaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868344C42D42986D00BB0771 /* RicohThetaProvider.swift */; };
 		C02FAC012664ED6D00EC7C07 /* RicohTheta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02FABF72664ED6D00EC7C07 /* RicohTheta.framework */; };
 		C02FAC062664ED6D00EC7C07 /* RicohThetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC052664ED6D00EC7C07 /* RicohThetaTests.swift */; };
 		C02FAC082664ED6D00EC7C07 /* RicohTheta.h in Headers */ = {isa = PBXBuildFile; fileRef = C02FABFA2664ED6D00EC7C07 /* RicohTheta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C02FAC5E2664F52900EC7C07 /* CommandPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */; };
-		C02FAC622664F57800EC7C07 /* HttpConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +46,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		868344A92D42986D00BB0771 /* HTTPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnection.swift; sourceTree = "<group>"; };
+		868344AA2D42986D00BB0771 /* HttpStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpStream.swift; sourceTree = "<group>"; };
+		868344AC2D42986D00BB0771 /* RicohThetaCommander2Dot0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaCommander2Dot0.swift; sourceTree = "<group>"; };
+		868344AD2D42986D00BB0771 /* RicohThetaCommander2Dot1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaCommander2Dot1.swift; sourceTree = "<group>"; };
+		868344AE2D42986D00BB0771 /* RicohThetaDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaDeviceInfo.swift; sourceTree = "<group>"; };
+		868344B02D42986D00BB0771 /* CommandDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandDTO.swift; sourceTree = "<group>"; };
+		868344B12D42986D00BB0771 /* DeviceInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoDTO.swift; sourceTree = "<group>"; };
+		868344B22D42986D00BB0771 /* OptionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionDTO.swift; sourceTree = "<group>"; };
+		868344B32D42986D00BB0771 /* SessionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDTO.swift; sourceTree = "<group>"; };
+		868344B62D42986D00BB0771 /* CommandPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPayload.swift; sourceTree = "<group>"; };
+		868344B72D42986D00BB0771 /* OptionPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionPayload.swift; sourceTree = "<group>"; };
+		868344BA2D42986D00BB0771 /* HttpConnectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConnectionProtocol.swift; sourceTree = "<group>"; };
+		868344BB2D42986D00BB0771 /* HttpStreamProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpStreamProtocol.swift; sourceTree = "<group>"; };
+		868344BD2D42986D00BB0771 /* RicohThetaCommanderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaCommanderProtocol.swift; sourceTree = "<group>"; };
+		868344BE2D42986D00BB0771 /* RicohThetaDeviceInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaDeviceInfoProtocol.swift; sourceTree = "<group>"; };
+		868344BF2D42986D00BB0771 /* RicohThetaImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaImageHandler.swift; sourceTree = "<group>"; };
+		868344C02D42986D00BB0771 /* RicohThetaProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaProviderDelegate.swift; sourceTree = "<group>"; };
+		868344C22D42986D00BB0771 /* RicohThetaAPIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaAPIVersion.swift; sourceTree = "<group>"; };
+		868344C32D42986D00BB0771 /* RicohThetaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaError.swift; sourceTree = "<group>"; };
+		868344C42D42986D00BB0771 /* RicohThetaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaProvider.swift; sourceTree = "<group>"; };
+		868344C52D42986D00BB0771 /* RicohThetaState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaState.swift; sourceTree = "<group>"; };
+		868344C72D42986D00BB0771 /* RicohThetaTypealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaTypealias.swift; sourceTree = "<group>"; };
+		868344C92D42986D00BB0771 /* RicohThetaLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaLogger.swift; sourceTree = "<group>"; };
 		C02FABF72664ED6D00EC7C07 /* RicohTheta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RicohTheta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02FABFA2664ED6D00EC7C07 /* RicohTheta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RicohTheta.h; sourceTree = "<group>"; };
 		C02FABFB2664ED6D00EC7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02FAC002664ED6D00EC7C07 /* RicohThetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RicohThetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02FAC052664ED6D00EC7C07 /* RicohThetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicohThetaTests.swift; sourceTree = "<group>"; };
 		C02FAC072664ED6D00EC7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPayload.swift; sourceTree = "<group>"; };
-		C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConnectionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868344AB2D42986D00BB0771 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				868344A92D42986D00BB0771 /* HTTPConnection.swift */,
+				868344AA2D42986D00BB0771 /* HttpStream.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		868344AF2D42986D00BB0771 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				868344AB2D42986D00BB0771 /* HTTP */,
+				868344AC2D42986D00BB0771 /* RicohThetaCommander2Dot0.swift */,
+				868344AD2D42986D00BB0771 /* RicohThetaCommander2Dot1.swift */,
+				868344AE2D42986D00BB0771 /* RicohThetaDeviceInfo.swift */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		868344B42D42986D00BB0771 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				868344B02D42986D00BB0771 /* CommandDTO.swift */,
+				868344B12D42986D00BB0771 /* DeviceInfoDTO.swift */,
+				868344B22D42986D00BB0771 /* OptionDTO.swift */,
+				868344B32D42986D00BB0771 /* SessionDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		868344B52D42986D00BB0771 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		868344B82D42986D00BB0771 /* Payload */ = {
+			isa = PBXGroup;
+			children = (
+				868344B62D42986D00BB0771 /* CommandPayload.swift */,
+				868344B72D42986D00BB0771 /* OptionPayload.swift */,
+			);
+			path = Payload;
+			sourceTree = "<group>";
+		};
+		868344B92D42986D00BB0771 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868344B42D42986D00BB0771 /* DTO */,
+				868344B52D42986D00BB0771 /* New Group */,
+				868344B82D42986D00BB0771 /* Payload */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		868344BC2D42986D00BB0771 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				868344BA2D42986D00BB0771 /* HttpConnectionProtocol.swift */,
+				868344BB2D42986D00BB0771 /* HttpStreamProtocol.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		868344C12D42986D00BB0771 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				868344BC2D42986D00BB0771 /* HTTP */,
+				868344BD2D42986D00BB0771 /* RicohThetaCommanderProtocol.swift */,
+				868344BE2D42986D00BB0771 /* RicohThetaDeviceInfoProtocol.swift */,
+				868344BF2D42986D00BB0771 /* RicohThetaImageHandler.swift */,
+				868344C02D42986D00BB0771 /* RicohThetaProviderDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		868344C62D42986D00BB0771 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				868344C22D42986D00BB0771 /* RicohThetaAPIVersion.swift */,
+				868344C32D42986D00BB0771 /* RicohThetaError.swift */,
+				868344C42D42986D00BB0771 /* RicohThetaProvider.swift */,
+				868344C52D42986D00BB0771 /* RicohThetaState.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		868344C82D42986D00BB0771 /* Typealias */ = {
+			isa = PBXGroup;
+			children = (
+				868344C72D42986D00BB0771 /* RicohThetaTypealias.swift */,
+			);
+			path = Typealias;
+			sourceTree = "<group>";
+		};
+		868344CA2D42986D00BB0771 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				868344C92D42986D00BB0771 /* RicohThetaLogger.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		C02FABED2664ED6D00EC7C07 = {
 			isa = PBXGroup;
 			children = (
@@ -94,34 +241,14 @@
 		C02FAC592664F4B400EC7C07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C02FAC5B2664F4E800EC7C07 /* Model */,
-				C02FAC5A2664F4BF00EC7C07 /* Protocol */,
+				868344AF2D42986D00BB0771 /* Impl */,
+				868344B92D42986D00BB0771 /* Model */,
+				868344C12D42986D00BB0771 /* Protocol */,
+				868344C62D42986D00BB0771 /* Provider */,
+				868344C82D42986D00BB0771 /* Typealias */,
+				868344CA2D42986D00BB0771 /* Util */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		C02FAC5A2664F4BF00EC7C07 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				C02FAC612664F57800EC7C07 /* HttpConnectionProtocol.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		C02FAC5B2664F4E800EC7C07 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C02FAC5C2664F50100EC7C07 /* Payload */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C02FAC5C2664F50100EC7C07 /* Payload */ = {
-			isa = PBXGroup;
-			children = (
-				C02FAC5D2664F52900EC7C07 /* CommandPayload.swift */,
-			);
-			path = Payload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +360,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C02FAC5E2664F52900EC7C07 /* CommandPayload.swift in Sources */,
-				C02FAC622664F57800EC7C07 /* HttpConnectionProtocol.swift in Sources */,
+				868344CB2D42986D00BB0771 /* HttpStreamProtocol.swift in Sources */,
+				868344CC2D42986D00BB0771 /* RicohThetaCommander2Dot0.swift in Sources */,
+				868344CD2D42986D00BB0771 /* SessionDTO.swift in Sources */,
+				868344CE2D42986D00BB0771 /* DeviceInfoDTO.swift in Sources */,
+				868344CF2D42986D00BB0771 /* RicohThetaState.swift in Sources */,
+				868344D02D42986D00BB0771 /* RicohThetaDeviceInfo.swift in Sources */,
+				868344D12D42986D00BB0771 /* RicohThetaCommander2Dot1.swift in Sources */,
+				868344D22D42986D00BB0771 /* RicohThetaImageHandler.swift in Sources */,
+				868344D32D42986D00BB0771 /* RicohThetaProviderDelegate.swift in Sources */,
+				868344D42D42986D00BB0771 /* RicohThetaDeviceInfoProtocol.swift in Sources */,
+				868344D52D42986D00BB0771 /* RicohThetaLogger.swift in Sources */,
+				868344D62D42986D00BB0771 /* HTTPConnection.swift in Sources */,
+				868344D72D42986D00BB0771 /* RicohThetaCommanderProtocol.swift in Sources */,
+				868344D82D42986D00BB0771 /* CommandDTO.swift in Sources */,
+				868344D92D42986D00BB0771 /* HttpStream.swift in Sources */,
+				868344DA2D42986D00BB0771 /* RicohThetaAPIVersion.swift in Sources */,
+				868344DB2D42986D00BB0771 /* OptionDTO.swift in Sources */,
+				868344DC2D42986D00BB0771 /* RicohThetaTypealias.swift in Sources */,
+				868344DD2D42986D00BB0771 /* RicohThetaError.swift in Sources */,
+				868344DE2D42986D00BB0771 /* HttpConnectionProtocol.swift in Sources */,
+				868344DF2D42986D00BB0771 /* OptionPayload.swift in Sources */,
+				868344E02D42986D00BB0771 /* CommandPayload.swift in Sources */,
+				868344E12D42986D00BB0771 /* RicohThetaProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +587,6 @@
 		C02FAC0F2664ED6D00EC7C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
 				INFOPLIST_FILE = RicohThetaTests/Info.plist;
@@ -458,7 +605,6 @@
 		C02FAC102664ED6D00EC7C07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PU9LT2X4AS;
 				INFOPLIST_FILE = RicohThetaTests/Info.plist;

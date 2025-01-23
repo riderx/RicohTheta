@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.debug.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.debug.xcconfig"; sourceTree = "<group>"; };
+		94C1FCC5F68CB0F3902DF0D9 /* Pods-RicohThetaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.debug.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C02FAC3D2664EEDA00EC7C07 /* RicohThetaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicohThetaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02FAC402664EEDA00EC7C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C02FAC422664EEDA00EC7C07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +26,8 @@
 		C02FAC492664EEDB00EC7C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02FAC4C2664EEDB00EC7C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02FAC4E2664EEDB00EC7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.release.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.release.xcconfig"; sourceTree = "<group>"; };
 		E7243FA0AA9BEAC32176B58B /* Pods_RicohThetaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RicohThetaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69026F0B86AB2B500633656 /* Pods-RicohThetaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RicohThetaExample.release.xcconfig"; path = "Target Support Files/Pods-RicohThetaExample/Pods-RicohThetaExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B3E28ED6775E542A8AAC3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C1FCC5F68CB0F3902DF0D9 /* Pods-RicohThetaExample.debug.xcconfig */,
+				F69026F0B86AB2B500633656 /* Pods-RicohThetaExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6C88C851DF969CA8D8966355 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,22 +60,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC26F739A4295CCBEFE4BBF2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */,
-				C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		C02FAC342664EEDA00EC7C07 = {
 			isa = PBXGroup;
 			children = (
 				C02FAC3F2664EEDA00EC7C07 /* RicohThetaExample */,
 				C02FAC3E2664EEDA00EC7C07 /* Products */,
-				BC26F739A4295CCBEFE4BBF2 /* Pods */,
 				6C88C851DF969CA8D8966355 /* Frameworks */,
+				00B3E28ED6775E542A8AAC3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -369,19 +370,19 @@
 		};
 		C02FAC522664EEDB00EC7C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 446FEF5C572466E088A1BEE6 /* Pods-RicohThetaExample.debug.xcconfig */;
+			baseConfigurationReference = 94C1FCC5F68CB0F3902DF0D9 /* Pods-RicohThetaExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PU9LT2X4AS;
+				DEVELOPMENT_TEAM = UVTJ336J2D;
 				INFOPLIST_FILE = RicohThetaExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,19 +391,19 @@
 		};
 		C02FAC532664EEDB00EC7C07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8EADC189F97FAA85968E41F /* Pods-RicohThetaExample.release.xcconfig */;
+			baseConfigurationReference = F69026F0B86AB2B500633656 /* Pods-RicohThetaExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PU9LT2X4AS;
+				DEVELOPMENT_TEAM = UVTJ336J2D;
 				INFOPLIST_FILE = RicohThetaExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfooz.RicohThetaExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
